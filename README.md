@@ -20,11 +20,12 @@ A new project has already been created in `src/`
 $ django-admin startproject <src>
 ```
 This automatically creates a default app `src/app/`
-```
-$ django-admin startapp <app>
-```
 
 ## Create a new app
+```
+$ cd src/
+$ python manage.py startapp <appname>
+```
 
 ## Serve the app
 ```
