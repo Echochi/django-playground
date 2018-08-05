@@ -1,4 +1,4 @@
-#!/Users/corneliavanderwalt/Workspace/django-playground/bin/python3.7
+#!/usr/bin/env python
 from django.core import management
 
 if __name__ == "__main__":
