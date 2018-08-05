@@ -4,6 +4,11 @@
 $ source ./bin/activate
 ```
 
+## Install Django (and other requirements)
+```
+$ pip install -r requirements.txt
+```
+
 ## Check Django is installed correctly
 ```
 $ python -m django --version
