@@ -14,15 +14,22 @@ $ pip install -r requirements.txt
 $ python -m django --version
 ```
 
-## Make a new app
+## Create a new project, if necessary
+A new project has already been created in `src/`
 ```
-cd src
-django-admin startproject <appname>
+$ django-admin startproject <src>
+```
+This automatically creates a default app `src/app/`
+
+## Create a new app
+```
+$ cd src/
+$ python manage.py startapp <appname>
 ```
 
 ## Serve the app
 ```
-python src/<appname>/manage.py runserver 8000
+$ python <src>/manage.py runserver 8000
 ```
 Port is optional. The server starts on port 8000 by default.
 
